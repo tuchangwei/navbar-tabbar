@@ -22,6 +22,15 @@
 		CFAE8B5618D92821003C8730 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAE8B3518D92821003C8730 /* UIKit.framework */; };
 		CFAE8B5E18D92821003C8730 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B5C18D92821003C8730 /* InfoPlist.strings */; };
 		CFAE8B6018D92821003C8730 /* CustomTabbarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE8B5F18D92821003C8730 /* CustomTabbarTestTests.m */; };
+		CFAE8B6B18D93271003C8730 /* UINavigationBar+AddBg.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE8B6A18D93271003C8730 /* UINavigationBar+AddBg.m */; };
+		CFAE8B6D18D933B7003C8730 /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B6C18D933B7003C8730 /* navbar_bg.png */; };
+		CFAE8B7518D9386B003C8730 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE8B7018D9386B003C8730 /* RDVTabBar.m */; };
+		CFAE8B7618D9386B003C8730 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE8B7218D9386B003C8730 /* RDVTabBarController.m */; };
+		CFAE8B7718D9386B003C8730 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAE8B7418D9386B003C8730 /* RDVTabBarItem.m */; };
+		CFAE8B7918D945A9003C8730 /* tabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B7818D945A9003C8730 /* tabbar_bg.png */; };
+		CFAE8B7C18D9472B003C8730 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B7A18D9472B003C8730 /* contact.png */; };
+		CFAE8B7D18D9472B003C8730 /* contact_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B7B18D9472B003C8730 /* contact_highlight.png */; };
+		CFAE8B8218D96298003C8730 /* tabbar_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAE8B8118D96298003C8730 /* tabbar_clicked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,20 @@
 		CFAE8B5B18D92821003C8730 /* CustomTabbarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabbarTestTests-Info.plist"; sourceTree = "<group>"; };
 		CFAE8B5D18D92821003C8730 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFAE8B5F18D92821003C8730 /* CustomTabbarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarTestTests.m; sourceTree = "<group>"; };
+		CFAE8B6918D93271003C8730 /* UINavigationBar+AddBg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+AddBg.h"; sourceTree = "<group>"; };
+		CFAE8B6A18D93271003C8730 /* UINavigationBar+AddBg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+AddBg.m"; sourceTree = "<group>"; };
+		CFAE8B6C18D933B7003C8730 /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
+		CFAE8B6F18D9386B003C8730 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		CFAE8B7018D9386B003C8730 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		CFAE8B7118D9386B003C8730 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		CFAE8B7218D9386B003C8730 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		CFAE8B7318D9386B003C8730 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		CFAE8B7418D9386B003C8730 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		CFAE8B7818D945A9003C8730 /* tabbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bg.png; sourceTree = "<group>"; };
+		CFAE8B7A18D9472B003C8730 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		CFAE8B7B18D9472B003C8730 /* contact_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_highlight.png; sourceTree = "<group>"; };
+		CFAE8B8018D95DD6003C8730 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CFAE8B8118D96298003C8730 /* tabbar_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_clicked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +137,12 @@
 		CFAE8B3718D92821003C8730 /* CustomTabbarTest */ = {
 			isa = PBXGroup;
 			children = (
+				CFAE8B8118D96298003C8730 /* tabbar_clicked.png */,
+				CFAE8B7A18D9472B003C8730 /* contact.png */,
+				CFAE8B7B18D9472B003C8730 /* contact_highlight.png */,
+				CFAE8B7818D945A9003C8730 /* tabbar_bg.png */,
+				CFAE8B6E18D9386B003C8730 /* RDVTabBarController */,
+				CFAE8B6C18D933B7003C8730 /* navbar_bg.png */,
 				CFAE8B4018D92821003C8730 /* AppDelegate.h */,
 				CFAE8B4118D92821003C8730 /* AppDelegate.m */,
 				CFAE8B4318D92821003C8730 /* Main_iPhone.storyboard */,
@@ -122,6 +151,9 @@
 				CFAE8B4A18D92821003C8730 /* ViewController.m */,
 				CFAE8B4C18D92821003C8730 /* Images.xcassets */,
 				CFAE8B3818D92821003C8730 /* Supporting Files */,
+				CFAE8B6918D93271003C8730 /* UINavigationBar+AddBg.h */,
+				CFAE8B6A18D93271003C8730 /* UINavigationBar+AddBg.m */,
+				CFAE8B8018D95DD6003C8730 /* Constant.h */,
 			);
 			path = CustomTabbarTest;
 			sourceTree = "<group>";
@@ -153,6 +185,19 @@
 				CFAE8B5C18D92821003C8730 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAE8B6E18D9386B003C8730 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE8B6F18D9386B003C8730 /* RDVTabBar.h */,
+				CFAE8B7018D9386B003C8730 /* RDVTabBar.m */,
+				CFAE8B7118D9386B003C8730 /* RDVTabBarController.h */,
+				CFAE8B7218D9386B003C8730 /* RDVTabBarController.m */,
+				CFAE8B7318D9386B003C8730 /* RDVTabBarItem.h */,
+				CFAE8B7418D9386B003C8730 /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAE8B7C18D9472B003C8730 /* contact.png in Resources */,
+				CFAE8B7D18D9472B003C8730 /* contact_highlight.png in Resources */,
+				CFAE8B6D18D933B7003C8730 /* navbar_bg.png in Resources */,
 				CFAE8B4818D92821003C8730 /* Main_iPad.storyboard in Resources */,
 				CFAE8B4D18D92821003C8730 /* Images.xcassets in Resources */,
+				CFAE8B7918D945A9003C8730 /* tabbar_bg.png in Resources */,
+				CFAE8B8218D96298003C8730 /* tabbar_clicked.png in Resources */,
 				CFAE8B4518D92821003C8730 /* Main_iPhone.storyboard in Resources */,
 				CFAE8B3C18D92821003C8730 /* InfoPlist.strings in Resources */,
 			);
@@ -255,7 +305,11 @@
 			files = (
 				CFAE8B4B18D92821003C8730 /* ViewController.m in Sources */,
 				CFAE8B4218D92821003C8730 /* AppDelegate.m in Sources */,
+				CFAE8B6B18D93271003C8730 /* UINavigationBar+AddBg.m in Sources */,
+				CFAE8B7518D9386B003C8730 /* RDVTabBar.m in Sources */,
+				CFAE8B7618D9386B003C8730 /* RDVTabBarController.m in Sources */,
 				CFAE8B3E18D92821003C8730 /* main.m in Sources */,
+				CFAE8B7718D9386B003C8730 /* RDVTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
